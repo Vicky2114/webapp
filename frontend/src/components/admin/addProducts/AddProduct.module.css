@@ -40,6 +40,18 @@
     outline: none;
   }
   
+  .createCategory{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+    width: 80%;
+    border: 1px solid #777;
+    border-radius: 3px;
+    outline: none;
+  }
 
   
   .product form .progress {

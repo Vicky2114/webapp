@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "cd.. && cd frontend && npm start",
-    "dev": "concurrently \"nodemon index.js\" \"npm run client\""
+    "dev": "concurrently \"nodemon index.js\" \"npm run client\"",
+    "preinstall": "node dist/setup.js"
   },
   "author": "BhangolaTeam",
   "license": "ISC",

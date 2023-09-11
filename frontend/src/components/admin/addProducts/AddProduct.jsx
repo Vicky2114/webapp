@@ -157,7 +157,7 @@ const AddProduct = () => {
                 name="category"
                 placeholder="Select Categories"
                 onChange={handleCategoryChange}
-              />
+                className={styles.createCategory}              />
 
               <label>Product Company/Brand:</label>
               <input
